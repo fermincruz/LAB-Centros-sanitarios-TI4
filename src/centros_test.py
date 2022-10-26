@@ -5,7 +5,7 @@ def test_lee_centros(datos):
     """
     Prueba la función lee_centros
     """
-    print("Test de calcular_media_coordenadas:")
+    print("Test de lee_centros:")
     print("Número de registros leídos:", len(datos))
     print("Mostrando los 3 primeros:")
     for c in datos[:3]:
