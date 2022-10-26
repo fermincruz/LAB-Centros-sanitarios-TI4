@@ -31,7 +31,7 @@ o este otro si tienes como instalador conda:
 conda install –c conda-forge folium
 ```
 ## Funciones a implementar:
-Lee las [instrucciones](https://github.com/Fundamentos-de-Programacion-Profesores/LAB-Centros-sanitarios/edit/main/README.md#instrucciones) del proyecto situado en la carpeta doc para tener más detalles de los requisitos que deben cumplir las funciones a implementar.
+Lee las [instrucciones](https://github.com/Fundamentos-de-Programacion-Profesores/LAB-Centros-sanitarios/edit/main/README.md#instrucciones) del proyecto que aparecen más abajo para tener más detalles de los requisitos que deben cumplir las funciones a implementar.
 
 ### Módulo coordenadas
 
@@ -69,7 +69,7 @@ En dicho módulo, implementa las funciones que se indican a continuación, tenie
 
 Para gestionar la información de los centros sanitarios se usará la siguiente definición de namedtuple en el módulo `centros.py`:
 ```python
-CentroSanitario = namedtuple('CentroSanitario', 'nombre, localidad, coordenadas, longitud, estado, num_camas, acceso_minusvalidos, tiene_uci')
+CentroSanitario = namedtuple('CentroSanitario', 'nombre, localidad, coordenadas, estado, num_camas, acceso_minusvalidos, tiene_uci')
 ```
 Implementa las funciones que se especifican a continuación en dicho [módulo](https://github.com/Fundamentos-de-Programacion-Profesores/LAB-Centros-sanitarios/edit/main/README.md#m%C3%B3dulo-centros). Una vez implementada una función, implementa su test correspondiente en el módulo `centros_test.py` y comprueba que funciona como se espera.
 
